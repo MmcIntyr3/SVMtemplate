@@ -13,9 +13,7 @@ This is an implementation of a support vector machine designed to identify short
 
 ## Stock selected for this exercise:SBUX 
 
-<!-- put your justification/choice here: !-->
-
-I love starbucks
+<!-- I love Starbucks !-->
 
 
 ```{r setup, echo=FALSE, include=FALSE}
@@ -36,7 +34,6 @@ SBUXDataFrame = data.frame(open=price.open, high=price.high,
         low=price.low, close=price.adjusted,volume= volume/10000, avg_change=avgchange, change = change)
 head(SBUXDataFrame)
 remove(SBUXData)
-
 ```
 
 ```{r}
